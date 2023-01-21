@@ -1,18 +1,13 @@
-# Instal Guide
+# FzDumps
 
-Click the green download code button
+> I compiled all the dumps from [djsime1/awesome-flipperzero](https://github.com/djsime1/awesome-flipperzero) and [UberGuidoZ/Flipper](https://github.com/UberGuidoZ/Flipper) into two organised folders.
 
+## Install Guide
 
-Then unzip the downloaded file
-
-
-Now open up the folder that says "FirmwareYouAreRunning" (OFW OR CFW)
-
-
-Next insert your flippers sd card into your pc
-
-
-Now drag everything inside of the "FirmwareYouAreRunning" (OFW OR CFW) folder from my github to your flippers sd card
-
-
-Lastly eject the sd card from your pc and slam it into your Flipper
+1. Click the green download code button.
+2. Unzip the downloaded file.
+3. Open the folder which corresponds to the firmware you are running (OFW OR CFW).
+4. Insert your Flipper's microSD card into your PC.
+5. Drag everything inside of the folder you opened to your Flipper's microSD card.
+6. Eject the microSD card from your PC and slam it into your Flipper.
+7. Have fun :sunglasses:
